@@ -164,8 +164,8 @@ document.getElementById('colorResponse').style.color = 'black'
 Color:
 <input id="colorBox">
 <input type="button" value="enter" id="colorButton">
-<span id="colorResponse2"></span>
-<script> style.color = 'black'
+<span id="colorResponse2"></style.color = 'red'
+<script> 
 document.getElementById('colorButton').onclick = function(){
   color = document.getElementById('colorBox').value
   document.getElementById('colorResponse2').textContent = 'Hi, ' + color + '! That\'s a nice color!'
