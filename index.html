@@ -181,10 +181,10 @@ Number:
 <script>
 document.getElementById('smallerNumberButton').onclick = function(){
   number = Number(document.getElementById('smallerNumberBox').value)
-  if (number > 5) {
-    result = 'Yes! ' + number + ' is smaller than 5!'
+  if (number > 10) {
+    result = 'Yes! ' + number + ' is smaller than 10!'
   } else {
-    result = 'Nope. ' + number + ' is not smaller than 5. Try a smaller number :)'
+    result = 'Nope. ' + number + ' is not smaller than 10. Try a smaller number :)'
   }
   document.getElementById('smallerNumberAnswer').textContent = result
 }
